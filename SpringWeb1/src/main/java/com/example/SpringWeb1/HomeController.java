@@ -13,7 +13,6 @@ public class HomeController {
 	public String courseName() {
 		return "Java";
 	}
-
 	@RequestMapping("/")
 	public String home() {
 		System.out.println("home method called");
